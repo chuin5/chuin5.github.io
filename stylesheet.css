@@ -1,3 +1,114 @@
-.title {
-    color: #02ccba;
-  }
+body {
+  font-family: "sans-serif";
+}
+
+li {
+  list-style: none;
+  /* Pindahkan kedua baris di bawah ke sekitar baris 25 */
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  /* Ubahlah padding atas & bawah ke 20px, dan padding kiri & kanan ke 40px */
+  padding: 20px 40px;
+}
+
+/* Tambahkan CSS tag <li> yang di atas ke dalam header-list */
+.header-list li {  
+  float: left;
+  padding: 33px 20px;
+}
+
+.main {
+  /* Hapuskan CSS background-color */
+  /* Hapuskan CSS height */
+  /* Ganti padding atas & bawah ke 100px, dan padding kiri & kanan ke 80px */
+  padding: 100px 80px;
+}
+
+/* Ganti font-size tag <h1> di dalam copy-container */
+.copy-container h1 {
+  font-size: 140px;
+}
+
+/* Ganti font-size tag <h2> di dalam copy-container */
+.copy-container h2 {
+  font-size: 60px;
+}
+
+/* Ganti color tags <span> di dalam copy-container */
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.copy-container btn-wrapper {
+  background-color: lightcyan;
+}
+.copy-container btn-wrapper h1 {
+  font-size: 20px;
+  letter-spacing: normal;
+}
+
+.copy-container btn-wrapper p {
+  margin: 10px 0;
+  font-size: 12px
+}
+
+/* Ganti property padding-top milik contact-form ke 100px */
+.contact-form {
+  padding-top: 100px;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  /* Ganti background-color ke #2f5167 */
+  background-color: #2f5167;
+  
+  /* Ganti color ke #fff */
+  color: #fff;
+  
+  /* Ganti height ke 120px */
+  height: 120px;
+  
+  /* Ganti padding untuk semua sisi ke 40px */
+  padding: 40px;
+  
+}
+
+/* Ganti font-size dan property float footer-logo */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+/* Ganti float property footer-list */
+.footer-list {
+  float: right;
+}
+
+/* Tambahkan CSS untuk tag <li> ke dalam footer-list */
+.footer-list li {
+  padding-bottom: 20px;
+}
